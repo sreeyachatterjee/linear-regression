@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as mtp
 import pandas as pd
-ds=pd.read_csv('C:/Users/sreey/Downloads/SimpleLinearRegression.csv')
+ds=pd.read_csv('SimpleLinearRegression.csv')
 ds
 x=ds.iloc[:,:-1].values
 y=ds.iloc[:,1].values
